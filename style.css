@@ -1,0 +1,72 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+textarea {
+  width: 700px;
+  height: 300px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .button {
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background:rgb(99, 97, 97);
+    margin: 2px;
+    border-radius: 3px;
+  }
+  
+  
+
+  .tab {
+    width: 60px;
+  }
+  .backspace {
+    width: 110px;
+  }
+  
+  .capslock{
+    width: 105px;
+  }
+
+  .space {
+    width: 335px;
+  }
+  
+  .shift:first-of-type {
+    width: 110px;
+  }
+  
+  
+  .enter {
+    width: 100px;
+  }
+
+  .control {
+    width: 55px;
+  }
+  
+  .top-symbol {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    
+  }
+  
+  .button:active {
+    background: lightgray;
+    color: black;
+  }
+
+  .pressed {
+    background: lightgray;
+    color: black;
+  }
